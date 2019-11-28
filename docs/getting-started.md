@@ -70,21 +70,21 @@ From now on, it will be assumed that all shell commands are issued in the ~/src/
 ### Add the GitHub mirror as second remote repository
 
 ```
-$ git remote add github https://github.com/openssl/openssl.git
+$ git remote add openssl https://github.com/openssl/openssl.git
 ```
 
 ```
 $ git remote -v
 origin	https://github.com/yourname/openssl.git (fetch)
 origin	https://github.com/yourname/openssl.git (push)
-github	https://github.com/openssl/openssl.git (fetch)
-github	https://github.com/openssl/openssl.git (push)
+openssl	https://github.com/openssl/openssl.git (fetch)
+openssl	https://github.com/openssl/openssl.git (push)
 ```
 
 
 ```
-$ git branch --set-upstream-to=github/master
-Branch 'master' set up to track remote branch 'master' from 'github'.
+$ git branch --set-upstream-to=openssl/master
+Branch 'master' set up to track remote branch 'master' from 'openssl'.
 ```
 
 To be continued...
